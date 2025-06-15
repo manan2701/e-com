@@ -16,6 +16,20 @@
       "email": "abc3@gmail.com",
       "password": "fghfghfgh",
       "isAdmin": false
+    },
+    {
+      "id": "SXw1HB-vUxvXq9uJmAoiY",
+      "username": "manan",
+      "email": "dfg@as.com",
+      "password": "1234",
+      "isAdmin": false
+    },
+    {
+      "id": "zjPHLCuV0Sf2hHMPjZ3__",
+      "username": "ghfghgh",
+      "email": "sasdsd@gdffg.sdfdf",
+      "password": "123",
+      "isAdmin": false
     }
   ],
   "cart": []

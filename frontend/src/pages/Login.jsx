@@ -1,14 +1,16 @@
 import React from 'react'
 import { useForm } from 'react-hook-form'
 import { Link } from 'react-router-dom'
+import { useDispatch } from 'react-redux'
 import '../styles/login.css'
+import { asyncloginuser } from '../store/actions/userAction'
 
 const Login = () => {
   const { register, reset, handleSubmit } = useForm()
+  const dispatch = useDispatch();
 
-  const submitHandler = (user) => {
-    console.log('Login Data:', user)
-    reset()
+  const submitHandler = (user) => { 
+    dispatch(asyncloginuser(user))
   }
 
   return (
