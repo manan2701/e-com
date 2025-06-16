@@ -1,4 +1,5 @@
 import axios from '../../api/axiosconfig'
+import { loadproduct } from '../reducer/productSlice';
 
 
 export const asynccreateproduct = (product) => async (dispatch,getState) => {
@@ -13,7 +14,7 @@ export const asynccreateproduct = (product) => async (dispatch,getState) => {
 export const asyncgetproduct = () => async (dispatch,getstate) => {
     try {
         const {data} = await axios.get("/products")
-        console.log(data);
+        dispatch(loadproduct(data))
     } catch (error) {
         console.log(error);
     }

@@ -1,0 +1,108 @@
+home.css
+
+.home-page {
+    padding-top: 10vh;
+    background-color: #f1f3f6;
+    font-family: Arial, sans-serif;
+  }
+  
+
+  .hero-section {
+    width: 100%;
+    overflow: hidden;
+  }
+  .hero-banner {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+
+  .category-section {
+    padding: 2rem;
+    background-color: white;
+  }
+  .category-section h2 {
+    margin-bottom: 1rem;
+  }
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+  }
+  .category-card {
+    text-align: center;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+  }
+  .category-card:hover {
+    transform: scale(1.05);
+  }
+  .category-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+  }
+  
+  .deals-section {
+    padding: 2rem;
+    background-color: white;
+  }
+  .deal-row {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 1rem 0;
+  }
+  .deal-card {
+    min-width: 180px;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    flex-shrink: 0;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  .deal-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .products-section {
+    padding: 2rem;
+    background-color: white;
+  }
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1rem;
+  }
+  .product-card {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  .product-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+  }
+  .product-card button {
+    background-color: #2874f0;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .product-card button:hover {
+    background-color: #1a5fc2;
+  }
+  

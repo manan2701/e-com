@@ -1,33 +1,75 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
-
+/* nav.css */
 .nav-container {
-    font-family: "Poppins", sans-serif;
-    background-color: #dcdcdc;
-}
-
-.navbar {
-    height: 10vh;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 2em;
-}
-
-.nav-link {
-    position: relative;
+  }
+  
+  .nav-left {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-link {
     text-decoration: none;
     color: #333;
-    font-size: 18px;
     font-weight: 500;
-    padding: 8px 12px;
+    position: relative;
     transition: color 0.3s ease;
-}
-
-.nav-link:hover {
+  }
+  
+  .nav-link::after {
+    content: "";
+    height: 2px;
+    width: 0;
+    background-color: #007bff;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    transition: width 0.3s ease;
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+  }
+  
+  .nav-link:hover {
     color: #007bff;
-}
-
-
-.nav-link.active {
+  }
+  .nav-link.active {
     color: #007bff;
-}
+  }
+  
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .logout-btn,
+  .login-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.2rem;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .logout-btn:hover,
+  .login-btn:hover {
+    background-color: #0056b3;
+  }
+  
