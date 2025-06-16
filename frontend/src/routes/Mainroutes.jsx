@@ -4,6 +4,7 @@ import Home from '../pages/Home'
 import Product from '../pages/Product'
 import Login from '../pages/Login'
 import Register from '../pages/Register'
+import Createproduct from '../pages/products/Createproduct'
 
 const Mainroutes = () => {
   return (
@@ -12,6 +13,7 @@ const Mainroutes = () => {
       <Route path="/products" element={<Product />} />
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
+      <Route path="/admin/create-product" element={<Createproduct/>} />
     </Routes>
   )
 }

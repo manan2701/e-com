@@ -1,16 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useForm } from 'react-hook-form'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
 import '../styles/login.css'
 import { asyncloginuser } from '../store/actions/userAction'
 
 const Login = () => {
-  const { register, reset, handleSubmit } = useForm()
+  const navigate = useNavigate()
+  const { register,handleSubmit } = useForm()
   const dispatch = useDispatch();
 
   const submitHandler = (user) => { 
-    dispatch(asyncloginuser(user))
+    dispatch(asyncloginuser(user, navigate))
   }
 
   return (

@@ -7,6 +7,38 @@
       "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
       "category": "men's clothing",
       "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+    },
+    {
+      "id": "5s18XU6B7FuSh_Sr3Pr6O",
+      "title": "hjhj",
+      "price": "14242",
+      "image": "https://img.clevup.in/57234/1707303791463_360_F_367318954_4ttRBcmaa22q30OsJRqflxgCOd9dB9t6jpg.jpeg?width=600&format=webp",
+      "category": "jkl,jkl",
+      "description": "jkljklkl"
+    },
+    {
+      "id": "Qrkl8wbIJhJDUdXPYbBBm",
+      "title": "fgfgfh",
+      "price": "142",
+      "category": "",
+      "image": "",
+      "description": ""
+    },
+    {
+      "id": "AKBmZT_wBfx8SFwY1suHf",
+      "title": "ghgh",
+      "price": "1242",
+      "category": "jk,jk",
+      "image": "https://img.clevup.in/57234/1707303791463_360_F_367318954_4ttRBcmaa22q30OsJRqflxgCOd9dB9t6jpg.jpeg?width=600&format=webp",
+      "description": "jkjhk"
+    },
+    {
+      "id": "McOoTMD051lbPG347LCB6",
+      "title": "jghjgh",
+      "price": "1425",
+      "category": "",
+      "image": "",
+      "description": ""
     }
   ],
   "users": [
@@ -30,6 +62,14 @@
       "email": "sasdsd@gdffg.sdfdf",
       "password": "123",
       "isAdmin": false
+    },
+    {
+      "id": "8oWX-S2c2TafpYBeupHbU",
+      "title": "",
+      "price": "",
+      "category": "",
+      "image": "",
+      "description": ""
     }
   ],
   "cart": []

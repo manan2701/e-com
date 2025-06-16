@@ -8,7 +8,6 @@ const App = () => {
     useEffect(()=>{
         dispatch(asynccurrentuser())
     },[])
-
    return (
     <div className="main">
         <Nav/>
