@@ -33,19 +33,6 @@ const Nav = () => {
             <NavLink to="/login" className="login-btn">Log In</NavLink>
           )}
         </div>
-        <div className="nav-left">
-          <NavLink to="/" end className="nav-link">Home</NavLink>
-          <NavLink to="/products" className="nav-link">Products</NavLink>
-          {user && <NavLink to="/admin/create-product" className="nav-link">Create</NavLink>}
-        </div>
-
-        <div className="nav-right">
-          {user ? (
-            <button className="logout-btn" onClick={logoutHandler}>Log Out</button>
-          ) : (
-            <NavLink to="/login" className="login-btn">Log In</NavLink>
-          )}
-        </div>
       </nav>
     </header>
   )

@@ -64,13 +64,4 @@ export const asyncdeleteuser = (id) => async (dispatch, getState) => {
     }
 }
 
-export const asynclogoutuser = () => async (dispatch, getState) => {
-    try{
-        localStorage.removeItem("user")
-        dispatch(removeUser())
-        toast.success("Logged out")
-    } catch (error) {
-        console.log(error);
-    }
-}
 
