@@ -1,27 +1,31 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 import '../styles/nav.css'
-import { useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
+import { asynclogoutuser } from '../store/actions/userAction'
 
 const Nav = () => {
-
   const user = useSelector((state) => state.userReducer.users)
   console.log(user);
+
   return (
-    <div className="nav-container">
+    <header className="nav-container">
       <nav className="navbar">
-        <NavLink to="/" end className="nav-link">Home</NavLink>
-        <NavLink to="/products" className="nav-link">Product</NavLink>
-        {user ? 
-        <>
-          <NavLink to="/admin/create-product" className="nav-link">Create Product</NavLink>
-        </> : <>
-          <NavLink to="/login" className="nav-link">Log in</NavLink>
-        </>}
-        
-        
+        <div className="nav-left">
+          <NavLink to="/" end className="nav-link">Home</NavLink>
+          <NavLink to="/products" className="nav-link">Products</NavLink>
+          {user && user.isAdmin &&  <NavLink to="/admin/create-product" className="nav-link">Create</NavLink>}
+        </div>
+
+        <div className="nav-right">
+          {user ? (
+            <NavLink to="/profile"><i className="fa-solid fa-user"></i></NavLink>
+          ) : (
+            <NavLink to="/login" className="login-btn">Log In</NavLink>
+          )}
+        </div>
       </nav>
-    </div>
+    </header>
   )
 }
 

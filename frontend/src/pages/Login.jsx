@@ -11,7 +11,8 @@ const Login = () => {
   const dispatch = useDispatch();
 
   const submitHandler = (user) => { 
-    dispatch(asyncloginuser(user, navigate))
+    dispatch(asyncloginuser(user))
+    navigate("/")
   }
 
   return (

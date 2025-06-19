@@ -1,17 +1,27 @@
-import React, { useEffect } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
-import { asyncgetproduct } from '../store/actions/productAction';
+import React from 'react'
+import { useSelector } from 'react-redux'
+import '../styles/product.css'
+import { Link } from 'react-router-dom'
 
 const Product = () => {
-  const dispatch = useDispatch()
-  const products = useSelector((state) => state.productReducer)
-  console.log(products);
-  useEffect(()=> {
-    dispatch(asyncgetproduct())
+  const products = useSelector((state) => state.productReducer.products)
+
+  const renderProducts = products.map((product) => {
+    return (
+        <div className="product-card" key={product.id}>
+          <Link to={`/productdetails/${product.id}`} className='product-link'>
+          <img src={product.image} alt={product.title} className="product-image" />
+          <h4 className="product-title">{product.title}</h4>
+          <p className="product-description">{product.description}</p>
+          <p className="product-category">{product.category}</p>
+          <p className="product-price">${product.price}</p>
+          </Link>
+        <button className="buy-button">Add<i className="fa-solid fa-cart-plus"></i></button>
+      </div>
+    )
   })
-  return (
-    <div>Product</div>
-  )
+
+  return <div className="product-grid">{renderProducts}</div>
 }
 
 export default Product
