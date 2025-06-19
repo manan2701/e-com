@@ -58,6 +58,17 @@ export const asyncdeleteuser = (id) => async (dispatch, getState) => {
     try{
         await axios.delete(`/users/${id}`)
         dispatch(asynclogoutuser())
+        await axios.post("/users", user)
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+export const asynclogoutuser = () => async (dispatch, getState) => {
+    try{
+        localStorage.removeItem("user")
+        dispatch(removeUser())
+        toast.success("Logged out")
     } catch (error) {
         console.log(error);
     }
