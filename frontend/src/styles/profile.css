@@ -1,96 +1,133 @@
-/* profile.css */
 
 .profile-container {
-    max-width: 500px;
+    max-width: 900px;
     margin: 5vh auto;
     padding: 2rem;
-    background: #ffffff;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-    border-radius: 12px;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .profile-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  
+  .profile-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .profile-email {
+    font-size: 0.95rem;
+    color: #777;
   }
   
   .profile-form {
+    width: 100%;
+    max-width: 500px;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    margin-bottom: 2rem;
   }
   
   .profile-form h2 {
     text-align: center;
     color: #333;
-    font-weight: 500;
+    margin-bottom: 1rem;
   }
   
   .profile-form input {
-    padding: 0.8rem 1rem;
+    padding: 0.75rem 1rem;
     border: 1px solid #ccc;
     border-radius: 8px;
     font-size: 1rem;
   }
   
   .update-btn {
-    padding: 0.8rem;
-    background-color: #4caf50;
+    background-color: #2874f0;
     color: white;
     border: none;
-    border-radius: 8px;
+    padding: 0.75rem;
     font-size: 1rem;
+    border-radius: 8px;
     cursor: pointer;
-    transition: 0.3s;
+    transition: background-color 0.3s ease;
   }
   
   .update-btn:hover {
-    background-color: #45a049;
+    background-color: #185ad1;
   }
   
   .profile-actions {
     display: flex;
-    justify-content: space-between;
     gap: 1rem;
     flex-wrap: wrap;
+    justify-content: center;
   }
   
   .delete-btn,
   .logout-btn {
-    flex: 1 1 45%;
-    padding: 0.8rem;
-    font-size: 1rem;
+    padding: 0.6rem 1.2rem;
+    font-size: 0.95rem;
     border: none;
-    border-radius: 8px;
+    border-radius: 6px;
     cursor: pointer;
-    transition: 0.3s;
+    transition: background-color 0.3s ease;
   }
   
   .delete-btn {
-    background-color: #f44336;
+    background-color: #e53935;
     color: white;
   }
   
   .delete-btn:hover {
-    background-color: #d32f2f;
+    background-color: #c62828;
   }
   
   .logout-btn {
-    background-color: #2196f3;
+    background-color: #616161;
     color: white;
   }
   
   .logout-btn:hover {
-    background-color: #1976d2;
+    background-color: #424242;
   }
   
-  /* Responsive Design */
   @media (max-width: 600px) {
+    .profile-form {
+      padding: 0 1rem;
+    }
+  
     .profile-actions {
       flex-direction: column;
+      width: 100%;
     }
   
     .delete-btn,
     .logout-btn {
-      flex: 1 1 100%;
+      width: 100%;
     }
   }
   

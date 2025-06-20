@@ -19,3 +19,12 @@ export const asyncgetproduct = () => async (dispatch,getstate) => {
         console.log(error);
     }
 }
+
+export const asyncupdateproduct = (id,product) => async (dispatch,getState) => {
+    try {
+        await axios.patch(`/products/${id}`, product)
+        dispatch(asyncgetproduct())
+    } catch (error) {
+        console.log(error);
+    }
+}
