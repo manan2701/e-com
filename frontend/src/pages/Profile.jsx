@@ -7,7 +7,7 @@ import {
   asyncupdateuser,
 } from "../store/actions/userAction";
 import { useForm } from "react-hook-form";
-import "../styles/profile.css"; // ⬅️ Add this line
+import "../styles/profile.css";
 
 const Profile = () => {
   const { users } = useSelector((state) => state.userReducer);

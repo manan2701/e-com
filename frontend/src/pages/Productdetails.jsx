@@ -1,13 +1,14 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import "../styles/productdetails.css";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { useForm } from "react-hook-form";
-import { asyncupdateproduct } from "../store/actions/productAction";
+import { asyncdeleteproduct, asyncupdateproduct } from "../store/actions/productAction";
 
 const Productdetails = () => {
   const { id } = useParams();
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const products = useSelector((state) => state.productReducer.products);
   const user = useSelector((state) => state.userReducer.users);
   const product = products.find((product) => product.id == id);
@@ -25,6 +26,11 @@ const Productdetails = () => {
   const updateHandler = (product) => {
     dispatch(asyncupdateproduct(id, product));
   };
+
+  const deleteHandler= () => {
+    dispatch(asyncdeleteproduct(id))
+    navigate("/products")
+  }
 
   return (
     <div>
@@ -75,8 +81,10 @@ const Productdetails = () => {
               <textarea {...register("description")} placeholder="Product description..." rows="4" />
             </div>
           </div>
-  
-          <button type="submit" className="submit-btn">Update Product</button>
+          <div className="productdetails-btns">
+          <button className="submit-btn">Update Product</button>
+          <button type="submit" onClick={deleteHandler} className="productdetails-delete-btn">Delete</button>
+          </div>
         </form>
       </div>
       )}

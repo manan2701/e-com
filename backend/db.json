@@ -9,9 +9,17 @@
       "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
     },
     {
+      "id": "Exm-IITSn9sqCWg-eqAfJ",
+      "title": "Apple iPhone 15 Plus (128 GB) - Pink",
+      "price": "839.99",
+      "category": "Phone",
+      "image": "https://m.media-amazon.com/images/I/71bErtQPC3L._SX679_.jpg",
+      "description": "\n48MP MAIN CAMERA WITH 2X TELEPHOTO — The 48MP Main camera shoots in super-high resolution. So it’s easier than ever to take standout photos with amazing detail. The 2x optical-quality Telephoto lets you frame the perfect close-up.\nNEXT-GENERATION PORTRAITS — Capture portraits with dramatically more detail and color. Just tap to shift the focus between subjects — even after you take the shot.\nPOWERHOUSE A16 BIONIC CHIP — The superfast chip powers advanced features like computational photography, fluid Dynamic Island transitions, and Voice Isolation for phone calls. And A16 Bionic is incredibly efficient to help deliver great all-day battery life."
+    },
+    {
       "id": "2",
       "title": "Mens Casual Premium Slim Fit T-Shirts ",
-      "price": 22.3,
+      "price": "22.99",
       "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
       "category": "men's clothing",
       "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
@@ -31,6 +39,14 @@
       "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
       "category": "men's clothing",
       "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg"
+    },
+    {
+      "id": "mUc-NuOXU69Q5lEj6duTV",
+      "title": "iPhone 16 128 GB: 5G Mobile Phone with Camera Control, A18 Chip and a Big Boost in Battery Life. Works with AirPods; Ultramarine",
+      "price": "829.99",
+      "category": "Phone",
+      "image": "https://m.media-amazon.com/images/I/712SuRmHG4L._SX679_.jpg",
+      "description": "BUILT FOR APPLE INTELLIGENCE — Apple Intelligence is the personal intelligence system that helps you write, express yourself and get things done effortlessly. With groundbreaking privacy protections, it gives you peace of mind that no one else can access your data — not even Apple.\nTAKE TOTAL CAMERA CONTROL — Camera Control gives you an easier way to quickly access camera tools, like zoom or depth of field, so you can take the perfect shot in record time.\nGET FURTHER AND CLOSER — The improved Ultra Wide camera with autofocus lets you take incredibly detailed macro photos and videos. Use the 48MP Fusion camera for stunning high-resolution images, and zoom in with the 2x optical-quality Telephoto.\nPHOTOGRAPHIC STYLES — The latest-generation Photographic Styles give you greater creative flexibility, so you can make every photo even more you. And you can reverse any of those styles anytime you want.\nSUPER-SMART A18 CHIP — A18 jumps two generations ahead of the A16 Bionic chip in iPhone 15. It enables Apple Intelligence, powers advanced photo and video features, and supports console-level gaming, with exceptional power efficiency."
     },
     {
       "id": "5",
@@ -145,20 +161,12 @@
       "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg"
     },
     {
-      "id": "19",
-      "title": "Opna Women's Short Sleeve Moisture",
-      "price": 7.95,
-      "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
-      "category": "women's clothing",
-      "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
-    },
-    {
-      "id": "20",
-      "title": "DANVOUY Womens T Shirt Casual Cotton Short",
-      "price": 12.99,
-      "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
-      "category": "women's clothing",
-      "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg"
+      "id": "F6STLpu5BV4VGvTQGBJQL",
+      "title": "bfbfb",
+      "price": "142",
+      "category": "bnvbn",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "description": "bvncvbnvbn"
     }
   ],
   "users": [
@@ -172,7 +180,7 @@
     {
       "id": "SXw1HB-vUxvXq9uJmAoiY",
       "username": "manan",
-      "email": "sdcsdfdfdf@as.com",
+      "email": "scvxcvcv@as.com",
       "password": "1234",
       "isAdmin": false
     },
@@ -180,6 +188,13 @@
       "id": "zjPHLCuV0Sf2hHMPjZ3__",
       "username": "ghfghgh",
       "email": "sasdsd@gdffg.sdfdf",
+      "password": "123",
+      "isAdmin": false
+    },
+    {
+      "id": "DeriKp7s-9ahdjSFe1q5d",
+      "username": "manan",
+      "email": "bodaryaanil@gmail.com",
       "password": "123",
       "isAdmin": false
     }

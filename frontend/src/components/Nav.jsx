@@ -29,7 +29,7 @@ const Nav = () => {
           <NavLink to="/" end className="nav-link" onClick={toggleMenu}>Home</NavLink>
           <NavLink to="/products" className="nav-link" onClick={toggleMenu}>Products</NavLink>
           {user && user.isAdmin && (
-            <NavLink to="/admin/create-product" className="nav-link" onClick={toggleMenu}>Create</NavLink>
+            <NavLink to="/create-product" className="nav-link" onClick={toggleMenu}>Create</NavLink>
           )}
         </div>
 

@@ -6,6 +6,10 @@ import { Link } from 'react-router-dom'
 const Product = () => {
   const products = useSelector((state) => state.productReducer.products)
 
+  if (!products || products.length === 0) {
+    return <p className="home-loading">Loading products...</p>;
+  }
+
   const renderProducts = products.map((product) => {
     return (
         <div className="product-card" key={product.id}>

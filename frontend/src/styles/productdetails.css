@@ -101,6 +101,7 @@ body {
   background-color: #e68900;
 }
 
+
 @media (max-width: 768px) {
   .productdetails-detail-container {
       flex-direction: column;
