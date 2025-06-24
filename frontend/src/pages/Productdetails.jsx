@@ -4,6 +4,8 @@ import "../styles/productdetails.css";
 import { useNavigate, useParams } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import { asyncdeleteproduct, asyncupdateproduct } from "../store/actions/productAction";
+import { addToCart } from "../store/actions/cartAction";
+import { asyncupdateuser } from "../store/actions/userAction";
 
 const Productdetails = () => {
   const { id } = useParams();
@@ -42,15 +44,14 @@ const Productdetails = () => {
           <h1 className="productdetails-title">{product.title}</h1>
           <p className="productdetails-category">{product.category}</p>
           <h2 className="productdetails-price">${product.price}</h2>
-          <p className="productdetails-description">{product.description}</p>
-
           <div className="productdetails-buttons">
             <button className="buy-btn">Buy Now</button>
-            <button className="cart-btn">Add to Cart</button>
+            <button className="cart-btn" onClick={()=> addToCart(user, product, dispatch, asyncupdateuser)}>Add to Cart</button>
           </div>
+          <p className="productdetails-description">{product.description}</p>
         </div>
       </div>
-      {user.isAdmin && (
+      {user?.isAdmin && (
         <div className="product-form-container">
         <form className="product-form" onSubmit={handleSubmit(updateHandler)}>
           <h2 className="form-title">Update Product</h2>

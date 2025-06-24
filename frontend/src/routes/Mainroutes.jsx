@@ -10,6 +10,7 @@ import Profile from "../pages/profile";
 import PageNotFound from "../pages/PageNotFound";
 import AuthWrapper from "./AuthWrapper";
 import AuthisAdmin from "./AuthisAdmin";
+import Cart from "../pages/Cart";
 
 const Mainroutes = () => {
   	return (
@@ -36,6 +37,13 @@ const Mainroutes = () => {
 		} />
       	<Route path="/productdetails/:id" element={<Productdetails />} />
       	<Route path="*" element={<PageNotFound />} />
+		  <Route 
+			path="/cart" 
+			element={
+			<AuthWrapper>
+				<Cart />
+			</AuthWrapper>	
+		} />
     </Routes>
   );
 };

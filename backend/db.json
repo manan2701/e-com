@@ -17,6 +17,14 @@
       "description": "\n48MP MAIN CAMERA WITH 2X TELEPHOTO — The 48MP Main camera shoots in super-high resolution. So it’s easier than ever to take standout photos with amazing detail. The 2x optical-quality Telephoto lets you frame the perfect close-up.\nNEXT-GENERATION PORTRAITS — Capture portraits with dramatically more detail and color. Just tap to shift the focus between subjects — even after you take the shot.\nPOWERHOUSE A16 BIONIC CHIP — The superfast chip powers advanced features like computational photography, fluid Dynamic Island transitions, and Voice Isolation for phone calls. And A16 Bionic is incredibly efficient to help deliver great all-day battery life."
     },
     {
+      "id": "T080mdkrBOXC8xeEb6-07",
+      "title": "Samsung Galaxy S25 5G Smartphone with Galaxy AI, Snapdragon 8 Elite, 50 MP Camera with ProVisual Engine and 4000mAh Battery",
+      "price": "799",
+      "category": "Phone",
+      "image": "https://m.media-amazon.com/images/I/61D3EdXKG5L._SX679_.jpg",
+      "description": "GALAXY AI - Ring in the next era of mobile AI with an AI companion who's one step ahead of your every need. Just let natural conversation guide the way to checking off everyday tasks with ease. Seamlessly complete your tasks without having to switch between various apps. Simply press and hold the side button to access Google Gemini for help.\nGEMINI LIVE – Go live, get answers. Have free-flowing conversation with Gemini Live to brainstorm ideas or prepare for presentations by attaching images and getting real-time responses that adapt to your conversation style."
+    },
+    {
       "id": "2",
       "title": "Mens Casual Premium Slim Fit T-Shirts ",
       "price": "22.99",
@@ -167,6 +175,22 @@
       "category": "bnvbn",
       "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
       "description": "bvncvbnvbn"
+    },
+    {
+      "id": "LNcdj_x0unJom728LUj0h",
+      "title": "sdsdcszc",
+      "price": "2135",
+      "category": "l/;kl/;",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "description": "kl.kl;kl;"
+    },
+    {
+      "id": "u_opd3U1uX_tvDYiYT-4s",
+      "title": "fvdfgvfgb",
+      "price": "32",
+      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "category": "fgbdfgbdgdf",
+      "description": "dfgdfggggg ggggg  gggggg gggg hbgfh   gggg ggg gggdf"
     }
   ],
   "users": [
@@ -175,29 +199,36 @@
       "username": "admin",
       "email": "abc3@gmail.com",
       "password": "admin",
-      "isAdmin": true
+      "isAdmin": true,
+      "cart": []
     },
     {
       "id": "SXw1HB-vUxvXq9uJmAoiY",
       "username": "manan",
-      "email": "scvxcvcv@as.com",
+      "email": "scvxc@as.com",
       "password": "1234",
-      "isAdmin": false
+      "isAdmin": false,
+      "cart": [
+        {
+          "product": {
+            "id": "4",
+            "title": "Mens Casual Slim Fit",
+            "price": 15.99,
+            "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg"
+          },
+          "quantity": 6
+        }
+      ]
     },
     {
-      "id": "zjPHLCuV0Sf2hHMPjZ3__",
+      "id": "Fbvvm_qFpA4Du0EnKdgsu",
       "username": "ghfghgh",
-      "email": "sasdsd@gdffg.sdfdf",
-      "password": "123",
-      "isAdmin": false
-    },
-    {
-      "id": "DeriKp7s-9ahdjSFe1q5d",
-      "username": "manan",
-      "email": "bodaryaanil@gmail.com",
-      "password": "123",
-      "isAdmin": false
+      "email": "fgbffghfghfgh@gdffg.sdfdf",
+      "password": "12",
+      "isAdmin": false,
+      "cart": []
     }
-  ],
-  "cart": []
+  ]
 }

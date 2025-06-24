@@ -8,6 +8,7 @@ import {
 } from "../store/actions/userAction";
 import { useForm } from "react-hook-form";
 import "../styles/profile.css";
+import { toast } from "react-toastify";
 
 const Profile = () => {
   const { users } = useSelector((state) => state.userReducer);
@@ -28,6 +29,7 @@ const Profile = () => {
 
   const updateUser = (user) => {
     dispatch(asyncupdateuser(users.id, user));
+    toast.success("Profile Updated!")
   };
 
   const deleteUser = () => {

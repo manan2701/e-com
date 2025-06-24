@@ -51,10 +51,17 @@
   background-color: white;
 }
 
-.nav-right {
+.profile-icon {
+  background-color: white;
+  color: #1e1e2f;
+  padding: 0.4rem;
+  border-radius: 50%;
   display: flex;
   align-items: center;
-  gap: 1rem;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  text-decoration: none;
 }
 
 .login-btn {
@@ -73,19 +80,14 @@
   color: #1e1e2f;
 }
 
-.profile-icon {
-  background-color: white;
-  color: #1e1e2f;
-  padding: 0.4rem;
-  border-radius: 50%;
+/* New wrapper for right section (hamburger + login/profile) */
+.nav-main-right {
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 35px;
-  height: 35px;
-  text-decoration: none;
+  gap: 1rem;
 }
 
+/* Hamburger icon */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -100,6 +102,7 @@
   border-radius: 3px;
 }
 
+/* Responsive */
 @media (max-width: 768px) {
   .nav-links {
     position: absolute;
@@ -121,11 +124,9 @@
     display: flex;
   }
 
-  .nav-right {
-    display: none;
-  }
-
-  .nav-right.mobile-show {
+  .nav-main-right {
     display: flex;
+    align-items: center;
+    gap: 1rem;
   }
 }

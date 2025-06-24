@@ -1,10 +1,10 @@
 import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 import { BrowserRouter } from "react-router-dom";
-import './styles/main.css'
-import {Provider} from 'react-redux'
+import "./styles/main.css";
+import { Provider } from "react-redux";
 import { store } from "./store/store.jsx";
-import { ToastContainer} from 'react-toastify';
+import { Bounce, ToastContainer } from "react-toastify";
 import ScrollToTop from "./components/ScrollToTop.jsx";
 
 createRoot(document.getElementById("root")).render(
@@ -12,7 +12,13 @@ createRoot(document.getElementById("root")).render(
     <BrowserRouter>
       <ScrollToTop />
       <App />
-      <ToastContainer />
+      <ToastContainer
+        position="bottom-center"
+        autoClose={1000}
+        hideProgressBar={false}
+        pauseOnHover={false}
+        theme="dark"
+      />
     </BrowserRouter>
   </Provider>
 );

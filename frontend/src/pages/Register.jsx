@@ -13,6 +13,7 @@ const Register = () => {
   const submitHandler = (user) => {
     user.id = nanoid()
     user.isAdmin = false
+    user.cart = []
     dispatch(asyncsetUser(user))
     reset()
   }
