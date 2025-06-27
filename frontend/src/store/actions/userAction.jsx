@@ -12,13 +12,14 @@ export const asynccurrentuser = () => async (dispatch, getState) =>{
     }
 }
 
-export const asyncloginuser = (user) => async (dispatch, getState) => {
+export const asyncloginuser = (user, navigate) => async (dispatch, getState) => {
     try {
         const {data} = await axios.get(`/users?username=${user.username}&password=${user.password}`)
         if(data.length==1) {
             localStorage.setItem("user", JSON.stringify(data[0]))
             dispatch(loadUser(data[0]))
             toast.success("Logged in")
+            navigate("/")
         } else {
             toast.error("No User Found")
         }

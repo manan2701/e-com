@@ -1,6 +1,7 @@
-import React from 'react';
-import '../styles/home.css';
-import { useSelector } from 'react-redux';
+import React from "react";
+import "../styles/home.css";
+import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const products = useSelector((state) => state.productReducer.products);
@@ -11,7 +12,6 @@ const Home = () => {
 
   return (
     <div className="home-page">
-
       <section className="home-hero-section">
         <img
           src="https://dummyimage.com/1500x400/2874f0/ffffff&text=Big+Sale+Banner"
@@ -25,8 +25,14 @@ const Home = () => {
         <div className="home-category-grid">
           {products.slice(0, 6).map((product) => (
             <div className="home-category-card" key={product.id}>
-              <img src={product.image} alt={product.title} className="home-category-img" />
-              <p className="home-category-text">{product.category}</p>
+              <Link to={`/productdetails/${product.id}`}>
+                <img
+                  src={product.image}
+                  alt={product.title}
+                  className="home-category-img"
+                />
+                <p className="home-category-text">{product.category}</p>
+              </Link>
             </div>
           ))}
         </div>
@@ -37,8 +43,16 @@ const Home = () => {
         <div className="home-deal-row">
           {products.slice(6, 12).map((product) => (
             <div className="home-deal-card" key={product.id}>
-              <img src={product.image} alt={product.title} className="home-deal-img" />
-              <p className="home-deal-title">{product.title.slice(0, 25)}...</p>
+              <Link to={`/productdetails/${product.id}`}>
+                <img
+                  src={product.image}
+                  alt={product.title}
+                  className="home-deal-img"
+                />
+                <p className="home-deal-title">
+                  {product.title.slice(0, 25)}...
+                </p>
+              </Link>
               <span className="home-deal-price">${product.price}</span>
             </div>
           ))}
@@ -50,10 +64,17 @@ const Home = () => {
         <div className="home-product-grid">
           {products.slice(12, 18).map((product) => (
             <div className="home-product-card" key={product.id}>
-              <img src={product.image} alt={product.title} className="home-product-img" />
-              <h3 className="home-product-title">{product.title.slice(0, 20)}...</h3>
+              <Link to={`/productdetails/${product.id}`}>
+                <img
+                  src={product.image}
+                  alt={product.title}
+                  className="home-product-img"
+                />
+                <h3 className="home-product-title">
+                  {product.title.slice(0, 20)}...
+                </h3>
+              </Link>
               <p className="home-product-price">${product.price}</p>
-              <button className="home-product-btn">Add to Cart</button>
             </div>
           ))}
         </div>

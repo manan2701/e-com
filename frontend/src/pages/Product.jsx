@@ -18,7 +18,6 @@ const Product = () => {
   const fetchData = async () => {
     try {
       const {data} = await axios.get(`/products/?_start=${products.length}&_limit=8`)
-      console.log(data.length);
       if(data.length === 0 ) {
         sethasMore(false)
       }else{

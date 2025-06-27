@@ -36,7 +36,13 @@ const Mainroutes = () => {
 				</AuthisAdmin>	
 			</AuthisAdmin>
 		} />
-      	<Route path="/productdetails/:id" element={<Productdetails />} />
+      	<Route 
+			path="/productdetails/:id" 
+			element={
+			<AuthWrapper>
+				<Productdetails />
+			</AuthWrapper>
+			} />
       	<Route path="*" element={<PageNotFound />} />
 		  <Route 
 			path="/cart" 

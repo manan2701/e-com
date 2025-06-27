@@ -3,6 +3,10 @@
   font-family: Arial, sans-serif;
 }
 
+a{
+  text-decoration: none;
+}
+
 .home-heading {
   font-size: 1.5rem;
   margin-bottom: 1rem;

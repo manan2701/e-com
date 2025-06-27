@@ -13,7 +13,7 @@ createRoot(document.getElementById("root")).render(
       <ScrollToTop />
       <App />
       <ToastContainer
-        position="bottom-center"
+        position="bottom-left"
         autoClose={1000}
         hideProgressBar={false}
         pauseOnHover={false}
