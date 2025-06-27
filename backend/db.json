@@ -11,7 +11,7 @@
     {
       "id": "Exm-IITSn9sqCWg-eqAfJ",
       "title": "Apple iPhone 15 Plus (128 GB) - Pink",
-      "price": "839.99",
+      "price": "71999",
       "category": "Phone",
       "image": "https://m.media-amazon.com/images/I/71bErtQPC3L._SX679_.jpg",
       "description": "\n48MP MAIN CAMERA WITH 2X TELEPHOTO — The 48MP Main camera shoots in super-high resolution. So it’s easier than ever to take standout photos with amazing detail. The 2x optical-quality Telephoto lets you frame the perfect close-up.\nNEXT-GENERATION PORTRAITS — Capture portraits with dramatically more detail and color. Just tap to shift the focus between subjects — even after you take the shot.\nPOWERHOUSE A16 BIONIC CHIP — The superfast chip powers advanced features like computational photography, fluid Dynamic Island transitions, and Voice Isolation for phone calls. And A16 Bionic is incredibly efficient to help deliver great all-day battery life."
@@ -19,10 +19,58 @@
     {
       "id": "T080mdkrBOXC8xeEb6-07",
       "title": "Samsung Galaxy S25 5G Smartphone with Galaxy AI, Snapdragon 8 Elite, 50 MP Camera with ProVisual Engine and 4000mAh Battery",
-      "price": "799",
+      "price": "74999",
       "category": "Phone",
       "image": "https://m.media-amazon.com/images/I/61D3EdXKG5L._SX679_.jpg",
       "description": "GALAXY AI - Ring in the next era of mobile AI with an AI companion who's one step ahead of your every need. Just let natural conversation guide the way to checking off everyday tasks with ease. Seamlessly complete your tasks without having to switch between various apps. Simply press and hold the side button to access Google Gemini for help.\nGEMINI LIVE – Go live, get answers. Have free-flowing conversation with Gemini Live to brainstorm ideas or prepare for presentations by attaching images and getting real-time responses that adapt to your conversation style."
+    },
+    {
+      "id": "pZV8poUSsYqbCImAlOcn_",
+      "title": "OnePlus 13R | Smarter with OnePlus AI | Lifetime Display Warranty (12GB RAM, 256GB Storage Nebula Noir)",
+      "price": "42999",
+      "category": "Phone",
+      "image": "https://m.media-amazon.com/images/I/61muVCIy-uL._SX679_.jpg",
+      "description": "Flagship power made smarter with the Snapdragon 8 Gen 3 flagship – Up to 98% faster AI, 30% faster CPU compared to the OnePlus 12R. The OnePlus 13R maximizes the CPU efficiency of the Snapdragon 8 Gen 3 when gaming, while lowering heat and power consumption.\nWinning made smooth with maximum 120fps gaming experience, no input delay and zero-touch latency gameplay. We've tuned the GPU pipeline to unlock near-instant 120fps HDR gaming that hits harder than any highlight."
+    },
+    {
+      "id": "c691FQ5cEzK6ky62O3Cj5",
+      "title": "OnePlus 13s | Snapdragon® 8 Elite | Smarter with OnePlus AI | Lifetime Display Warranty | 12GB+256GB | Green Silk",
+      "price": "54998",
+      "category": "Phone",
+      "image": "https://m.media-amazon.com/images/I/61BTIyv+XdL._SX679_.jpg",
+      "description": "Elite Performance - At the core of OnePlus 13s, lies the Snapdragon 8 Elite – the fastest Snapdragon mobile processor, powering OnePlus AI, stunning graphics and next-gen performance. With state-of-the-art Cryo-Velocity cooling system, OnePlus 13s runs cool, no matter where you are.\nSmarter Everyday – Experience the power of OnePlus AI with Oxygen OS 15 out of the box. Oxygren OS 15 brings deep improvements that power OnePlus AI, making organising your life easy with AI Plus Mind, enhancing efficiency with Intelligent Search and improving productivity with Google Gemini."
+    },
+    {
+      "id": "GojHS-Ws8ai4MO74ZhHmA",
+      "title": "boAt New Launch Storm Infinity w/15 Days Extensive Battery fueled by Huge 550mAh Battery, Fast Charge, Sports Strap,1.83”(4.65cm)HD Display, Functional Crown Smart watch for Men & Women (Sports Green)",
+      "price": "1799",
+      "category": "Smart Watch",
+      "image": "https://m.media-amazon.com/images/I/91pwbCPh0+L._SX679_.jpg",
+      "description": "Operating System\tandroid\nSpecial Feature\tBluetooth Calling\nBattery Capacity\t550 Milliamp Hours\nConnectivity Technology\tBluetooth\nWireless Communication Standard\tBluetooth"
+    },
+    {
+      "id": "Jyf-Z2mHQnn7_wwAOjrge",
+      "title": "AGEasy Boat Protec Neo Smartwatch with SOS Button for Live Location Sharing | 1.43” AMOLED Display, BT Calling, Health Monitoring, QR Tray, 5 Days Battery Life | Smartwatch for Men & Women (Black)",
+      "price": "3999",
+      "category": "Smart Watch",
+      "image": "https://m.media-amazon.com/images/I/71O4EnuEl4L._SX679_.jpg",
+      "description": "[QUALITY YOU CAN TRUST]: Designed with the trusted healthcare values of Max Group and powered by the performance of boAt smart technology.\n[INSTANT SOS BUTTON]: The boAt AGEasy Protec Neo Smartwatch features an instant SOS button that sends real-time SMS alerts and shares your live location with loved ones—ensuring help is just a tap away during emergencies.\n[BLUETOOTH CALLING]: Make and receive calls directly from your wrist with the inbuilt microphone and speaker—stay hands-free, connected, and accessible at all times, even without reaching for your phone."
+    },
+    {
+      "id": "DJ0kHId8Z1tMqXwfku95Z",
+      "title": "boAt New Launch Ultima Ember Smartwatch w/ 1.96” (4.97 cm) AMOLED Display, Personalized Fitness Nudges, Functional Crown, 100+ Sports Modes, Custom Watch Faces (Silver Mist)",
+      "price": "2199",
+      "category": "Smart Watch",
+      "image": "https://m.media-amazon.com/images/I/71tffGYmGFL._SX679_.jpg",
+      "description": "1.96” (4.97 cm) AMOLED Display: Experience a crystal-clear view on the 1.96” (4.97 cm) AMOLED display of the boAt Ultima Ember Smartwatch. With a 368x448p resolution and Always on Display, it makes checking the time, notifications, vital stats, and more effortless.\nFunctional Crown: Navigate through the options on the menu, scroll through notifications, and control other features effortlessly with the functional crown."
+    },
+    {
+      "id": "Nh3sHUTFlozasSDbqegvQ",
+      "title": "ASUS Dual Radeon RX 6600 8 GB GDDR6 RAM PCIe 4.0 Dual Fans Desktop Graphic Card, pci_e_x16",
+      "price": "20849",
+      "category": "GPU",
+      "image": "https://m.media-amazon.com/images/I/61w9O1yPrdL._SX679_.jpg",
+      "description": "Axial-tech fan design features a smaller fan hub that facilitates longer blades and a barrier ring that increases downward air pressure.\nDual ball fan bearings can last up to twice as long as sleeve bearing designs.\nMinimum power supply required only 500W\nUp to 2491 MHz (Boost Clock)/up to 2044 MHz (Game Clock)\nAuto-Extreme Technology uses automation to enhance reliability.\nA protective backplate prevents PCB flex and trace damage."
     },
     {
       "id": "2",
@@ -167,30 +215,6 @@
       "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
       "category": "women's clothing",
       "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg"
-    },
-    {
-      "id": "F6STLpu5BV4VGvTQGBJQL",
-      "title": "bfbfb",
-      "price": "142",
-      "category": "bnvbn",
-      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-      "description": "bvncvbnvbn"
-    },
-    {
-      "id": "LNcdj_x0unJom728LUj0h",
-      "title": "sdsdcszc",
-      "price": "2135",
-      "category": "l/;kl/;",
-      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-      "description": "kl.kl;kl;"
-    },
-    {
-      "id": "u_opd3U1uX_tvDYiYT-4s",
-      "title": "fvdfgvfgb",
-      "price": "32",
-      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
-      "category": "fgbdfgbdgdf",
-      "description": "dfgdfggggg ggggg  gggggg gggg hbgfh   gggg ggg gggdf"
     }
   ],
   "users": [
@@ -208,19 +232,7 @@
       "email": "scvxc@as.com",
       "password": "1234",
       "isAdmin": false,
-      "cart": [
-        {
-          "product": {
-            "id": "4",
-            "title": "Mens Casual Slim Fit",
-            "price": 15.99,
-            "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
-            "category": "men's clothing",
-            "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg"
-          },
-          "quantity": 6
-        }
-      ]
+      "cart": []
     },
     {
       "id": "Fbvvm_qFpA4Du0EnKdgsu",
